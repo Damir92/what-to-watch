@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MainPage = ({leadInfo}) => {
-  const {
-    name,
-    genre,
-    year,
-  } = leadInfo;
+const MainPage = () => {
+  const leadInfo = {
+    name: `The Grand Budapest Hotel`,
+    genre: `Drama`,
+    year: 2014
+  };
 
   return (
     <div>
@@ -40,10 +40,10 @@ const MainPage = ({leadInfo}) => {
             </div>
 
             <div className="movie-card__desc">
-              <h2 className="movie-card__title">{name}</h2>
+              <h2 className="movie-card__title">{leadInfo.name}</h2>
               <p className="movie-card__meta">
-                <span className="movie-card__genre">{genre}</span>
-                <span className="movie-card__year">{year}</span>
+                <span className="movie-card__genre">{leadInfo.genre}</span>
+                <span className="movie-card__year">{leadInfo.year}</span>
               </p>
 
               <div className="movie-card__buttons">
@@ -310,14 +310,6 @@ const MainPage = ({leadInfo}) => {
       </div>
     </div>
   );
-};
-
-MainPage.propTypes = {
-  leadInfo: PropTypes.shape({
-    name: PropTypes.string,
-    genre: PropTypes.string,
-    year: PropTypes.number,
-  }),
 };
 
 export default MainPage;
