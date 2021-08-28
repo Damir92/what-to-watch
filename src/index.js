@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom';
 
 import App from './components/app/app';
 
-const leadInfo = {
-  name: `The Grand Budapest Hotel`,
-  genre: `Drama`,
-  year: 2014
-};
+import {films, filmPromo} from './mocks/films';
+// import { transformFilmObject } from './utils';
+
+// const filmsTransformed = films.map(item => transformFilmObject(item));
+// const filmPromoTransformed = transformFilmObject(filmPromo);
 
 ReactDOM.render(
-    <App
-      leadInfo={leadInfo}
-    />,
+    <App films={ films } filmPromo={ filmPromo } />,
     document.querySelector(`#root`)
 );
