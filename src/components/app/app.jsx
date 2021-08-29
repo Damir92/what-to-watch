@@ -11,9 +11,9 @@ import FilmPage from '../film-page/film-page';
 import AddReviewPage from '../add-review-page/add-review-page';
 import PlayerPage from '../player-page/player-page';
 
-import {filmPropTypes} from '../../prop-types';
+import {filmPropTypes, reviewPropTypes} from '../../prop-types';
 
-const App = ({films, filmPromo}) => {
+const App = ({films, filmPromo, reviews}) => {
   return (
     <BrowserRouter>
       <Switch>
@@ -27,7 +27,7 @@ const App = ({films, filmPromo}) => {
           <MyListPage films={ films.slice(0, 8) } />
         </Route>
         <Route exact path={ Routes.FILM }>
-          <FilmPage films={ films } />
+          <FilmPage films={ films } reviews={ reviews } />
         </Route>
         <Route exact path={ Routes.ADD_REVIEW } >
           <AddReviewPage films={ films } />
@@ -45,6 +45,9 @@ App.propTypes = {
       PropTypes.shape(filmPropTypes).isRequired
   ).isRequired,
   filmPromo: PropTypes.shape(filmPropTypes).isRequired,
+  reviews: PropTypes.arrayOf(
+      PropTypes.shape(reviewPropTypes).isRequired
+  ).isRequired,
 };
 
 export default App;

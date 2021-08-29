@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 
 import SmallCardsList from '../small-cards-list/small-cards-list';
 
-import {getFilmRating} from '../../utils';
-import {filmPropTypes} from '../../prop-types';
+import {filmPropTypes, reviewPropTypes} from '../../prop-types';
 import {useRouteMatch} from 'react-router-dom';
 import {Routes} from '../../const';
+import InfoTabs from '../info-tabs/info-tabs';
 
-const FilmPage = ({films}) => {
+const FilmPage = ({films, reviews}) => {
   const match = useRouteMatch();
   const mainFilm = films.find((item) => item.id === +match.params.id);
   const filmsList = films.filter((item) => item.genre === mainFilm.genre && item.id !== mainFilm.id).slice(0, 4);
@@ -82,37 +82,11 @@ const FilmPage = ({films}) => {
               <img src={ mainFilm.posterImage } alt={ mainFilm.name } width="218" height="327" />
             </div>
 
-            <div className="movie-card__desc">
-              <nav className="movie-nav movie-card__nav">
-                <ul className="movie-nav__list">
-                  <li className="movie-nav__item movie-nav__item--active">
-                    <a href="#" className="movie-nav__link">Overview</a>
-                  </li>
-                  <li className="movie-nav__item">
-                    <a href="#" className="movie-nav__link">Details</a>
-                  </li>
-                  <li className="movie-nav__item">
-                    <a href="#" className="movie-nav__link">Reviews</a>
-                  </li>
-                </ul>
-              </nav>
+            <InfoTabs
+              film={ mainFilm }
+              reviews={ reviews }
+            />
 
-              <div className="movie-rating">
-                <div className="movie-rating__score">{ mainFilm.rating }</div>
-                <p className="movie-rating__meta">
-                  <span className="movie-rating__level">{ getFilmRating(mainFilm.rating) }</span>
-                  <span className="movie-rating__count">{ mainFilm.scoresCount } ratings</span>
-                </p>
-              </div>
-
-              <div className="movie-card__text">
-                <p>{ mainFilm.description }</p>
-
-                <p className="movie-card__director"><strong>Director: { mainFilm.director }</strong></p>
-
-                <p className="movie-card__starring"><strong>Starring: { mainFilm.starring.join(`, `) }</strong></p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -148,6 +122,9 @@ const FilmPage = ({films}) => {
 FilmPage.propTypes = {
   films: PropTypes.arrayOf(
       PropTypes.shape(filmPropTypes).isRequired
+  ).isRequired,
+  reviews: PropTypes.arrayOf(
+      PropTypes.shape(reviewPropTypes).isRequired
   ).isRequired,
 };
 

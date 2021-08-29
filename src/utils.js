@@ -1,4 +1,4 @@
-import {FilmRating} from './const';
+import {FilmRating, MonthList} from './const';
 
 export const transformFilmObject = (film) => {
   return {
@@ -30,4 +30,27 @@ export const getFilmRating = (value) => {
     }
   });
   return rating;
+};
+
+export const getRunTime = (value) => {
+  const hours = Math.floor(value / 60);
+  const minutes = value - hours * 60;
+
+  if (hours) {
+    return `${hours}h ${minutes}m`;
+  }
+  return `${minutes}m`;
+};
+
+export const getHumanDate = (value) => {
+  const date = new Date(value);
+
+  return `${MonthList[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+};
+
+export const getComputerDate = (value) => {
+  const date = new Date(value);
+  const month = date.getMonth() + 1;
+
+  return `${date.getFullYear()}-${month < 10 ? `0${month}` : month}-${date.getDate()}`;
 };

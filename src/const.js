@@ -14,3 +14,32 @@ export const FilmRating = [
   {value: 8, mark: `Very good`},
   {value: 10, mark: `Awesome`},
 ];
+
+export const MonthList = [
+  `January`,
+  `February`,
+  `March`,
+  `May`,
+  `June`,
+  `July`,
+  `August`,
+  `September`,
+  `October`,
+  `November`,
+  `December`,
+];
+
+export const FilmPageTabs = {
+  OVERVIEW: {
+    key: `overview`,
+    title: `Overview`,
+  },
+  DETAILS: {
+    key: `details`,
+    title: `Details`,
+  },
+  REVIEWS: {
+    key: `reviews`,
+    title: `Reviews`
+  },
+};

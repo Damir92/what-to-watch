@@ -20,7 +20,7 @@ export const films = [
     id: 1,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Fantastic Beasts: The Crimes of Grindelwald`,
@@ -43,7 +43,7 @@ export const films = [
     id: 2,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Seven Years in Tibet`,
@@ -66,7 +66,7 @@ export const films = [
     id: 3,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `The Revenant`,
@@ -89,7 +89,7 @@ export const films = [
     id: 4,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Once Upon a Time in America`,
@@ -112,7 +112,7 @@ export const films = [
     id: 5,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Bohemian Rhapsody`,
@@ -135,7 +135,7 @@ export const films = [
     id: 6,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `We need to talk about Kevin`,
@@ -158,7 +158,7 @@ export const films = [
     id: 7,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Snatch`,
@@ -181,7 +181,7 @@ export const films = [
     id: 8,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `A Star Is Born`,
@@ -204,7 +204,7 @@ export const films = [
     id: 9,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Moonrise Kingdom`,
@@ -227,7 +227,7 @@ export const films = [
     id: 10,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Bronson`,
@@ -250,7 +250,7 @@ export const films = [
     id: 11,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Pulp Fiction`,
@@ -273,7 +273,7 @@ export const films = [
     id: 12,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `War of the Worlds`,
@@ -296,7 +296,7 @@ export const films = [
     id: 13,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Macbeth`,
@@ -319,7 +319,7 @@ export const films = [
     id: 14,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Johnny English`,
@@ -342,7 +342,7 @@ export const films = [
     id: 15,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Legend`,
@@ -365,7 +365,7 @@ export const films = [
     id: 16,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Matrix`,
@@ -388,7 +388,7 @@ export const films = [
     id: 17,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Shutter Island`,
@@ -411,7 +411,7 @@ export const films = [
     id: 18,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `No Country for Old Men`,
@@ -434,7 +434,7 @@ export const films = [
     id: 19,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Midnight Special`,
@@ -457,7 +457,7 @@ export const films = [
     id: 20,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `What We Do in the Shadows`,
@@ -480,7 +480,7 @@ export const films = [
     id: 21,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Gangs of new york`,
@@ -503,7 +503,7 @@ export const films = [
     id: 22,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Orlando`,
@@ -526,7 +526,7 @@ export const films = [
     id: 23,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+    previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
   },
   {
     name: `Beach`,
@@ -549,7 +549,7 @@ export const films = [
     id: 24,
     isFavorite: false,
     videoLink: `http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   },
   {
     name: `Dardjeeling Limited`,
@@ -572,7 +572,7 @@ export const films = [
     id: 25,
     isFavorite: false,
     videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-    previewVideoLink: `https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4`
+    previewVideoLink: `https://damirmas.club/uploads/sintel_trailer_480p_bd0829ff87.mp4`
   }
 ];
 
@@ -597,5 +597,5 @@ export const filmPromo = {
   id: 1,
   isFavorite: false,
   videoLink: `http://media.xiph.org/mango/tears_of_steel_1080p.webm`,
-  previewVideoLink: `https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Big_Buck_Bunny_Trailer_400p.ogv/Big_Buck_Bunny_Trailer_400p.ogv.360p.webm`
+  previewVideoLink: `https://damirmas.club/uploads/Big_Buck_Bunny_Trailer_400p_ogv_360p_a4e5568d5c.webm`
 };
