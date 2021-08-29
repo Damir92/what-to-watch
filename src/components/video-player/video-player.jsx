@@ -23,10 +23,6 @@ const VideoPlayer = ({
     const video = videoRef.current;
 
     video.src = src;
-
-    return () => {
-      videoRef.current.oncanplaythrough = null;
-    };
   }, []);
 
   useEffect(() => {
